@@ -1,0 +1,25 @@
+{
+  "name": "d3andajax",
+  "version": "1.0.0",
+  "description": "an all in one projec for all the freecodecamp certification need",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ciguox/practicingD3andAJAX"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "David Terré Vázquez",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "d3": "^7.9.0",
+    "express": "^4.19.2",
+    "http-server": "^14.1.1"
+  }
+}
